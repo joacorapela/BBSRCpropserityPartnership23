@@ -1,7 +1,12 @@
 \documentclass{article}
 
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage[colorlinks=true]{hyperref}
+\usepackage{verbatim}
+\usepackage{endnotes}
+
+\let\footnote=\endnote
 
 \newcommand{\desc}[1]{{\leavevmode\color{blue}[#1]}}
 
@@ -536,5 +541,7 @@ What the assessors are looking for in your response
 
 \end{itemize}
 }
+
+\theendnotes
 
 \end{document}

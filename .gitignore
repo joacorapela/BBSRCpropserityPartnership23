@@ -1,6 +1,9 @@
 *~
+*.ent
 *.out
 *.swp
 *.aux
 *.log
 *.bak
+
+figures/
